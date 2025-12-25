@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Database (Optional: Keep this commented if you want to deploy with sample data, uncomment to exclude)
+# data/*.db
+# For this project, we might want to deploy with a clean state, so maybe exclude it?
+# The deployment guide says: "data/*.db >> .gitignore" to start fresh.
+# Let's align with the guide.
+data/*.db
+
+# Generated Plots (Optional: usually we regenerate them)
+plots/*.png
+
+# Agent Artifacts
+.github/
+
+*.md
+
